@@ -10,7 +10,6 @@ Template.form.events
             students.insert
             (
                 {
-                    song : template.find( "#song" ).value,
                     name : template.find( "#name" ).value,
                     lastName : template.find( "#lastName" ).value,
                     link : template.find( "#link" ).value
